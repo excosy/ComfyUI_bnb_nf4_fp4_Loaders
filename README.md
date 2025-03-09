@@ -24,4 +24,5 @@ Recommend GGUF to generate more precisely (but more slowly than sft): https://gi
 Code adapted from the implementation by Illyasviel at [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge).
 
 ## Known Issues
-You may get OOM on first task if your RAM / VRAM is lower than 16GB / 8GB.
+You may get OOM on first task if your RAM / VRAM is lower than 16GB / 8GB. To avoid this, disable CUDA - Sysmem Fallback Policy.<br/>
+Here is how to: https://support.cognex.com/docs/deep-learning_330/web/EN/deep-learning/Content/deep-learning-Topics/optimization/gpu-disable-shared.htm
