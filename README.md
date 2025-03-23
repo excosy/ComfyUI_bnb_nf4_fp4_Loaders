@@ -3,7 +3,7 @@ Please look at [ComfyUI-nunchaku](https://github.com/mit-han-lab/ComfyUI-nunchak
 
 The only change except workflow nodes is [svdq-flux-dev](https://huggingface.co/mit-han-lab/svdq-int4-flux.1-dev) instead of vanilla flux-dev model is required.
 
-Like FluxFusion, there are also a faster version of svdq-flux-dev: [svdq-shuttle-jaguar](https://huggingface.co/mit-han-lab/svdq-int4-shuttle-jaguar)
+Like FluxFusion, there are also some faster versions like [svdq-flux-schnell](https://huggingface.co/mit-han-lab/svdq-int4-flux.1-schnell), [svdq-shuttle-jaguar](https://huggingface.co/mit-han-lab/svdq-int4-shuttle-jaguar)
 
 The following is the original description.
 
