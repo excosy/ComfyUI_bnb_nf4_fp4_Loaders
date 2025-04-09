@@ -1,4 +1,3 @@
-
 ## NF4 model loader of ComfyUI
 
 Both Checkpoint and UNET loader are included.<br/>
@@ -18,6 +17,10 @@ Recommend GGUF to generate more precisely (but more slowly than sft): https://gi
         * CLIP: download into `clip` or `text_encoders` folder, loaded with vanilla DualCLIP loader.
             * t5xxl: https://huggingface.co/silveroxides/CLIP-Collection/blob/main/t5xxl_flan_latest-fp8_e4m3fn.safetensors
             * clip_l: https://huggingface.co/zer0int/CLIP-SAE-ViT-L-14/blob/main/ViT-L-14-GmP-SAE-TE-only.safetensors
+
+## Alternaitives
+* [ComfyUI-nunchaku](https://github.com/mit-han-lab/ComfyUI-nunchaku): A new quantizing method available with CUDA over 20 series, faster and more effective, working with specialized base model: [svdq-flux-dev](https://huggingface.co/mit-han-lab/svdq-int4-flux.1-dev). Shamely there is no quantizing tools released causes only few model available.
+* [HiDream-I1-nf4](https://github.com/lum3on/comfyui_HiDream-Sampler): A NF4 quantized version of a new 17B model larger than 12B Flux. Not working on Windows for a required package [AutoGPTQ](https://github.com/AutoGPTQ/AutoGPTQ) is not under maintenance.
 
 ## Credits
 Code adapted from the implementation by Illyasviel at [Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge).
